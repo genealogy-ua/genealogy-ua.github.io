@@ -38,6 +38,18 @@
   color: #4a6a7a;
 }
 
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
     .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
     .service, .team-member { background: #fff; margin-bottom: 20px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
     .section h2 { margin-bottom: 20px; text-align: center; }
@@ -90,6 +102,18 @@
 </div>
 </section>
 
+<section class="section">
+  <h2>Генеалогія у деталях</h2>
+  <div class="gallery">
+    <img src="banner.jpg" alt="Генеалогічне дослідження">
+    <img src="https://via.placeholder.com/600x400?text=Архівні+документи" alt="Архіви">
+    <img src="https://via.placeholder.com/600x400?text=Родовідне+дерево" alt="Родовід">
+  </div>
+</section>
+
+
+
+  
   <section class="section">
   <h2>Як ми працюємо</h2>
 
