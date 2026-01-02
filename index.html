@@ -72,16 +72,18 @@
   line-height: 1.6;
 }
 
-    .full-width-image {
-  width: 100%;
-  margin: 40px 0;
+.center-image {
+  text-align: center;
+  margin: 30px auto;
 }
 
-.full-width-image img {
-  width: 100%;
-  height: auto;
-  display: block;
+.center-image img {
+  max-width: 65%;   /* ← уменьшает примерно в 1.5 раза */
+  height: auto;     /* сохраняет пропорции */
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
 
 
     .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
@@ -186,7 +188,7 @@
       </p>
     </div>
   </div>
-   <div class="full-width-image">
+ <div class="center-image">
   <img src="jewish-dna.png" alt="Єврейська ДНК та походження">
 </div>
 </section>
